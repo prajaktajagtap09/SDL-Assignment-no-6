@@ -1,0 +1,38 @@
+﻿VECTOR
+color<-c('red','green','blue')
+print(color)
+print(class(color))
+
+# LIST
+list1<-list(c(2,5,8),21,89)
+print(list1)
+
+# MATRIX
+Mat<-matrix(c('a','v','e','s','y','z'),nrow=2,ncol=3,byrow = TRUE)
+print(Mat)
+
+# ARRAY
+arr<-array(c('green','yellow'),dim=c(3,3,8))
+print(arr)
+
+# FACTORS
+color<-c('green','red','yellow','red','blue','green','red')
+factor_color<-factor(color)
+print(factor_color)
+print(color)
+print(nlevels(factor_color))
+
+# DATA FRAMES
+DF<-data.frame()
+DF<-data.frame(gender=c('Male','Female','male'),height=c(158,120,165),weight=c(40,35,48),age=c(18,16,15))
+print(DF)
+
+# STRING
+St<-"Hello! We are learning R programming!!..."
+print(St)
+print(color)
+
+# GRAPH
+data(cars)
+cars
+
